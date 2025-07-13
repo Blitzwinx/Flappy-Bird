@@ -1,0 +1,20 @@
+using UnityEngine;
+
+public class NewMonoBehaviourScript : MonoBehaviour
+{
+    private MeshRenderer meshRenderer;
+
+    public float animationSpeed = 1f;
+
+    public void Awake()
+    {
+        meshRenderer = GetComponent<MeshRenderer>();
+    }
+
+    private void Update()
+    {
+        meshRenderer.material.mainTextureOffset += new Vector2(animationSpeed * Time.deltaTime, 0);
+    }
+
+
+}
