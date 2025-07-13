@@ -1,11 +1,11 @@
 # Flappy Bird Clone 
 
-A clone of Flappy Bird made for learning purpose
+A clone of Flappy Bird made for learning purpose  
 Made in Unity with C#
 
 ---
 
-# What i've learned from this project:
+### What i've learned from this project:
 - **Unity as Game Engine**: Getting familiar with the engine
 - **Physics & Movement**: Gravity, flap impulse, frame rate independent motion  
 - **Spawn System**: Timed obstacle instantiation with random heights  
